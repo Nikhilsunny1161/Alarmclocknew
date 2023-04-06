@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="Alarm.css">
+    <title>Alarm Clock Made By Nikhil kumar Singh</title>
+</head>
+<body>
+    <section class="app">
+        <div class="time-display">
+          <img class="timer" src="clock.png">
+            <div id="clock"></div>
+        </div>
+        <form class="setAlarmform">
+        <label class="Timer"><h1>Set Alarm</h1><label><br>
+        <div class="set-alarm-box">
+            <input type="number" 
+                   name="a_hour" 
+                   id="a_hour"
+                   placeholder="HH" 
+                   max="23" min="00">
+            <input type="number"
+             name="a_min"
+             id="a_min"
+             placeholder="MM" 
+             max="59" min="00">
+            <input type="number"
+             name="a_sec"
+             id="a_sec"
+             placeholder="SS"
+             max="59" min="00">
+        </div>
+            <div class="controls">
+                <button type="submit" class="set-alarm">Set Alarm</button>
+                <button type="reset" onclick="clearAlarm()" class="clear-alarm">Stop Alarm</button>
+            </div>
+        </form> 
+    </section>
+    <hr style="margin-top: 30px">
+
+    <section>
+        <div>
+            <h1 class="alarm-heading" style="margin-top: -5px;">Saved Alarms</h1>
+        </div>
+        <div>
+            <ul id = "myList">
+                
+            </ul>
+        </div>
+    </section>
+    <script src="Alarm.js"></script>
+</body>
+</html>

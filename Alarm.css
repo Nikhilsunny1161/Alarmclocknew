@@ -1,0 +1,113 @@
+body {
+    border: 8px solid lightgreen;
+    border-radius: 20px;
+    padding: 40px;
+    width: 60%;
+    height: 550px;
+    margin: 0 auto;
+    background: url('https://images.pexels.com/photos/359989/pexels-photo-359989.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+
+}
+
+.container{
+    align-content: center;
+    text-align: center;
+}
+
+.time-display{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    background-color:grey;
+    width: 250px;
+    height: 12%;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px; 
+    margin-left: 45px;
+
+}
+
+
+.timer{
+    width: 50px;
+    height: 40px;
+    margin-top: 7px;
+    margin-right: 10px;
+}
+
+#clock{
+    font-size: 3rem;
+    font-weight: bold;
+    color: black;
+
+}
+
+.Timer{
+    color: lightgreen;
+    margin-bottom: 40px;
+    padding-top: 50px;
+}
+
+.set-alarm-box{
+    margin-top: -40px;
+    height: 50px;
+    padding-top: 0px;
+}
+
+.controls button{
+    border-color: green;
+    background-color: blue;
+    color: whitesmoke;
+    height: 35px;
+    width: 105px;
+    font-size: 0.8rem;
+    font-weight:500;
+    border-radius: 7px;
+   
+}
+
+.controls button:hover{
+    background-color: #204b75;
+}
+
+#myList{
+    list-style-type: none;
+    
+}
+
+#myList li{
+    font-size: 1.2rem;
+    color: whitesmoke;
+    background-color: #204b74;
+    height: 2rem;
+    margin-left: -30px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    padding-left: 16px;
+    padding-top: 10px;
+    width: 280px;
+    
+
+}
+
+.time-list{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.time-list span{
+    width: 160px;
+    margin-right: 18px;
+    
+}
+
+.time-list button{
+    background-color: #5d754d;
+    border-color: #5d759d;
+    border-radius: 3px;
+    border-width: 0px;
+    height: 22px;
+    color: whitesmoke;
+}
